@@ -10,7 +10,10 @@ git commit -a -m "Mensagem" //faz o add antes de commitar, ao inves de usar dois
 git log
 git log --oneline
 git log nomedoarquivo
-
+git remote add origin <url>
+git remote -v
+git push -u origin master
+git clone <url>
 
 git config --list
 git status
